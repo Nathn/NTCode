@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta lang="fr">
+	<meta http-equiv="X-UA-Compatible", content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="NTCode - Éditeur JavaScript en ligne" />
+	<meta property="og:type" content="website" />
+	<meta name="keywords" content="code, editor, live, web, nathn, open source, javascript, nodejs, free, en ligne" />
+	<meta property="og:url" content="code.nathn.tech" />
+	<meta property="og:image" content="http://nathn.tech/images/favicon.ico" />
+	<meta name="og:site_name" content="NTCode" />
+	<meta property="og:description" content="Un éditeur JavaScript en ligne gratuit et sans incription" />
+	<meta name="title" content="NTCode - Éditeur JavaScript en ligne" />
+	<meta name="description" content="Un éditeur JavaScript en ligne gratuit et sans incription" />
+	<meta name="robots" />
+	<link rel="shortcut icon" type="image/ico" href="http://nathn.tech/images/favicon.ico">
+    <link rel="stylesheet" href="lib/css/editor-styles.css">
+    <title>NTCode - Éditeur JavaScript</title>
+</head>
+
+<body>
+    <div class="editor">
+        <div class="editor__wrapper">
+            <div class="editor__body">
+                <div id="editorCode" class="editor__code"></div>
+            </div>
+            <div class="editor__footer">
+                <div class="editor__footer--left">
+                	<button class="editor__btn editor__run">Exécuter ></button>
+                	<button class="editor__btn editor__reset">Réinitialiser ></button>
+                	<select class="editor__btn editor__theme">
+                		<option>Ambiance</option>
+                		<option>Chaos</option>
+                		<option>Chrome</option>
+                		<option>Clouds</option>
+                		<option>Clouds Midnight</option>
+                		<option>Cobalt</option>
+                		<option>Crimson Editor</option>
+                		<option>Dawn</option>
+                		<option>Dracula</option>
+                		<option selected>Dreamweaver</option>
+                		<option>Eclipse</option>
+                		<option>GitHub</option>
+                		<option>Greeon on Black</option>
+                		<option>Gruvbox</option>
+                		<option>Idle Fingers</option>
+                		<option>IPlastic</option>
+                		<option>KatzenMilch</option>
+                		<option>Kr Theme</option>
+                		<option>Kuroir</option>
+                		<option>Merbivore</option>
+                		<option>Merbivore Soft</option>
+                		<option>Mono Industrial</option>
+                		<option>Monokai</option>
+                		<option>Pastel on Dark</option>
+                		<option>Solarized Dark</option>
+                		<option>Solarized Light</option>
+                		<option>SQLServer</option>
+                		<option>Terminal</option>
+                		<option>TextMate</option>
+                		<option>Tomorrow</option>
+                		<option>Tomorrow Night</option>
+                		<option>Tomorrow Night Blue</option>
+                		<option>Tomorrow Night Bright</option>
+                		<option>Tomorrow Night 80s</option>
+                		<option>Twilight</option>
+                		<option>Vibrant Ink</option>
+                		<option>XCode</option>
+                	</select>
+                </div>
+                <div class="editor__footer--right">
+                    <div class="editor__console">
+                        <ul class="editor__console-logs"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Required Libraries -->
+    <script src="lib/js/ace-editor/src-min/ace.js"></script>
+    <script src="lib/js/ace-editor/src-min/mode-javascript.js"></script>
+    <script src="lib/js/ace-editor/src-min/ext-language_tools.js"></script>
+
+    <!-- Custom Scripts -->
+    <script src="lib/js/editor.js"></script>
+    <script src="lib/js/editor-console.js"></script>
+</body>
+
+</html>
