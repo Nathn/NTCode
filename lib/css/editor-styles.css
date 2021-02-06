@@ -25,17 +25,128 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+	background: #fff;
+}
+
+.editor[data-theme='ambiance'] {
+    background-color: #202020;
+}
+
+.editor[data-theme='chaos'] {
+    background-color: #161616;
+}
+
+.editor[data-theme='clouds_midnight'] {
+    background-color: #191919;
+}
+
+.editor[data-theme='cobalt'] {
+    background-color: #002240;
+}
+
+.editor[data-theme='dawn'] {
+    background-color: #F9F9F9;
+}
+
+.editor[data-theme='dracula'] {
+    background-color: #282a36;
+}
+
+.editor[data-theme='gob'] {
+    background-color: #1D2021;
+}
+
+.editor[data-theme='gruvbox'] {
+    background-color: #1D2021;
+}
+
+.editor[data-theme='idle_fingers'] {
+    background-color: #323232;
+}
+
+.editor[data-theme='iplastic'] {
+	background-color: #eeeeee;
+}
+
+.editor[data-theme='katzenmilch'] {
+	background-color: #f3f2f3;
+}
+
+.editor[data-theme='kr_theme'] {
+	background-color: #0B0A09;
+}
+
+.editor[data-theme='kuroir'] {
+    background-color: #E8E9E8;
+}
+
+.editor[data-theme='merbivore'] {
+    background-color: #161616;
+}
+
+.editor[data-theme='merbivore_soft'] {
+	background-color: #1C1C1C;
+}
+
+.editor[data-theme='mono_industrial'] {
+	background-color: #222C28;
+}
+
+.editor[data-theme='monokai'] {
+    background-color: #272822;
+}
+
+.editor[data-theme='pastel_on_dark'] {
+    background-color: #2C2828;
+}
+
+.editor[data-theme='solarized_dark'] {
+    background-color: #002B36;
+}
+
+.editor[data-theme='solarized_light'] {
+    background-color: #FDF6E3;
+}
+
+.editor[data-theme='terminal'] {
+    background-color: black;
+}
+
+.editor[data-theme='tomorrow_night'] {
+    background-color: #1D1F21;
+}
+
+.editor[data-theme='tomorrow_night_blue'] {
+    background-color: #002451;
+}
+
+.editor[data-theme='tomorrow_night_bright'] {
+    background-color: #000000;
+}
+
+.editor[data-theme='tomorrow-night_eighties'] {
+    background-color: #2D2D2D;
+}
+
+.editor[data-theme='twilight'] {
+    background-color: #141414;
+}
+
+.editor[data-theme='vibrant_ink'] {
+    background-color: #0F0F0F;
 }
 
 .editor__wrapper {
-    width: 50%;
-    height: 70%;
+    width: 75%;
+    height: 90%;
+	resize: both;
     display: flex;
     flex-direction: column;
     background: var(--editor-bg);
     padding: 2em;
-    border-radius: 3px;
+    border-radius: 5px;
     border: 1px solid #ccc;
+	overflow: auto;
 }
 
 .editor__body {
@@ -75,6 +186,115 @@ html, body {
     border: 1px solid var(--editor-border);
     overflow: auto;
 }
+
+.editor__console[data-theme='ambiance'] {
+    background-color: #202020;
+}
+
+.editor__console[data-theme='chaos'] {
+    background-color: #161616;
+}
+
+.editor__console[data-theme='clouds_midnight'] {
+    background-color: #191919;
+}
+
+.editor__console[data-theme='cobalt'] {
+    background-color: #002240;
+}
+
+.editor__console[data-theme='dawn'] {
+    background-color: #F9F9F9;
+}
+
+.editor__console[data-theme='dracula'] {
+    background-color: #282a36;
+}
+
+.editor__console[data-theme='gob'] {
+    background-color: #1D2021;
+}
+
+.editor__console[data-theme='gruvbox'] {
+    background-color: #1D2021;
+}
+
+.editor__console[data-theme='idle_fingers'] {
+    background-color: #323232;
+}
+
+.editor__console[data-theme='iplastic'] {
+	background-color: #eeeeee;
+}
+
+.editor__console[data-theme='katzenmilch'] {
+	background-color: #f3f2f3;
+}
+
+.editor__console[data-theme='kr_theme'] {
+	background-color: #0B0A09;
+}
+
+.editor__console[data-theme='kuroir'] {
+    background-color: #E8E9E8;
+}
+
+.editor__console[data-theme='merbivore'] {
+    background-color: #161616;
+}
+
+.editor__console[data-theme='merbivore_soft'] {
+	background-color: #1C1C1C;
+}
+
+.editor__console[data-theme='mono_industrial'] {
+	background-color: #222C28;
+}
+
+.editor__console[data-theme='monokai'] {
+    background-color: #272822;
+}
+
+.editor__console[data-theme='pastel_on_dark'] {
+    background-color: #2C2828;
+}
+
+.editor__console[data-theme='solarized_dark'] {
+    background-color: #002B36;
+}
+
+.editor__console[data-theme='solarized_light'] {
+    background-color: #FDF6E3;
+}
+
+.editor__console[data-theme='terminal'] {
+    background-color: black;
+}
+
+.editor__console[data-theme='tomorrow_night'] {
+    background-color: #1D1F21;
+}
+
+.editor__console[data-theme='tomorrow_night_blue'] {
+    background-color: #002451;
+}
+
+.editor__console[data-theme='tomorrow_night_bright'] {
+    background-color: #000000;
+}
+
+.editor__console[data-theme='tomorrow_night_eighties'] {
+    background-color: #2D2D2D;
+}
+
+.editor__console[data-theme='twilight'] {
+    background-color: #141414;
+}
+
+.editor__console[data-theme='vibrant-ink'] {
+    background-color: #0F0F0F;
+}
+
 
 .editor__code {
     position: relative;
