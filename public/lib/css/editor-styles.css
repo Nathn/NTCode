@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Consolas:wght@200;300;400;500;600;700;800;900&display=swap');
 
 /* Variables */
 :root {
@@ -315,7 +315,7 @@ html, body {
 
 .editor__console-logs li pre {
     font-size: .9em;
-    font-family: Inconsolata, sans-serif;
+    font-family: Consolas, sans-serif;
 }
 
 .ace_gutter {
